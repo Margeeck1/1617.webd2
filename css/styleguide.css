@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i');
+h1 {
+  font-size: 45px;
+  font-family: 'Playfair Display', serif;
+  color: #698D67;
+  font-style: italic;
+}
+h2{
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  color: #CED0B7;
+  font-style: italic;
+}
+p{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #565656;
+}
+.terugknop{
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color:#CED0B7;
+    border-radius: 1vh;
+    outline: none;
+    border:0 none;
+    padding: 1vh;
+}
+
+.terugknop:hover{
+    background-color: #EDE7D9;
+}
+.title{
+  font-size: 45px;
+  font-family: 'Playfair Display', serif;
+  color: #698D67;
+  font-style: italic;
+}
+#form{
+  font-family: 'Open Sans',   
+}
+
+.formtext{
+    color: #CED0B7
+      !important;
+}
+
+.input{
+    font-size: 4vh;
+    outline: none;
+    border: 0.5vh solid #CED0B7;
+    float: right;
+    margin-right: 35%;
+    width: 50%;
+}
+
+.textarea{
+    outline:none;
+    resize: none;
+    width: 65%;
+    border: 0.5vh solid #CED0B7;
+    height: 40vh;
+}
+#menu{
+  font-size: 55px;
+  font-color: #CED0B7;
+    text-align: center;
+    padding: 4%;
+}
+.topmenulink{
+    text-decoration: none;
+    color: #CED0B7;
+    padding: 1vh;
+    font-family: 'Playfair Display', serif;
+}
+#footer{
+    width: 100vw;
+    margin-top: 10vh;
+    background-color: #CED0B7;
+}
+.footercontent{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+    padding-bottom:5vh; 
+    color:white !important; 
+    font-size:2.3em; 
+    text-align: left;
+    width:50%;
+    margin-left:25%;
+}
