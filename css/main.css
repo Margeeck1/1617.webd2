@@ -5,24 +5,250 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
   width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
-  background-size: cover;
-
-  color: rgba(232,234,246 ,1);
 }
 
-.intro {
-  width: 90vw;
+#firstpart{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width:100%; 
+}
 
-  padding: 1rem;
-  margin-top: 1rem;
+#menu{
+    text-align: center;
+    padding: 4%;
+}
 
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+.topmenulink{
+    text-decoration: none;
+    color: #CED0B7;
+    font-size: 2.5em;
+    padding: 1vh;
+    font-family: 'Playfair Display', serif;
+}
+
+.topmenulink:hover{
+    color:#EDE7D9;
+}
+
+#title{
+    color: white;
+    border: 1.6vh solid white;
+    font-size: 14vh;
+    text-align: center;
+    display: inline-block;
+    display: table;
+    margin: 0 auto;
+    margin-top: 10vh;
+    padding: 4vh;
+    font-family: 'Open Sans', serif;
+}
+
+#secondpart{
+    max-width:100%; 
+    margin-top: 10vh;
+    height: 50vh;
+}
+
+.secondunderpart{
+    display: inline-block;
+    width:30%;
+    float: left;
+}
+
+#secondleft{
+    text-align: center;
+}
+
+#secondright{
+}
+
+#thirdpart{
+    margin-top: 10vh;
+}
+
+.title{
+    color: #698D67; 
+    font-family: 'Playfair Display', serif; 
+    font-style: italic;
+    font-size: 10vh;
+}
+
+.smalltitle{
+    color:#CED0B7;
+    font-family: 'Playfair Display', serif; 
+    font-size: 6vh;
+    margin-top: 3vh;
+}
+
+.text{
+    color:#565656;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight:lighter;
+    font-size: 4vh;
+    
+}
+
+.imgleft{
+    width: 20%;
+    height: auto;
+    padding-bottom: 2vh;
+    margin-left: 25%;
+    margin-right: 10%;
+    padding-top: 2vh;
+}
+
+.imgright{
+    width: 20%;
+    height: auto;
+    padding-bottom: 2vh;
+}
+
+.portfoliobutton{
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: inline-block;
+    float: left;
+    width: 20%;
+    height: 28vh;
+    border-bottom: 1vh solid white;
+    border-top: 1vh solid white;
+    border-left: 1vw solid white;
+    border-right: 1vw solid white;
+    font-size: 6vh;
+    background-color: lightgrey;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+}
+
+.portfoliobutton:hover{
+    border-bottom: 1vh solid grey;
+    border-top: 1vh solid grey;
+    border-left: 1vw solid grey;
+    border-right: 1vw solid grey;
+    background-color: grey;
+}
+
+.pfbleft{
+    margin-left: 25%;
+    margin-right: 10%;
+}
+
+.pfbright{
+    
+}
+
+.pfbspan{
+    
+    line-height: 25vh;
+}
+
+#fifthpart{
+    margin-top: 10vh;
+}
+
+#form{
+    
+}
+
+.formtext{
+    color: #CED0B7 !important;
+
+}
+
+.input{
+    font-size: 4vh;
+    outline: none;
+    border: 0.5vh solid #CED0B7;
+    float: right;
+    margin-right: 35%;
+    width: 50%;
+}
+
+.textarea{
+    outline:none;
+    resize: none;
+    width: 65%;
+    border: 0.5vh solid #CED0B7;
+    height: 40vh;
+}
+
+#seventhpart{
+    margin-top: 10vh;
+}
+
+#footer{
+    width: 100vw;
+    margin-top: 10vh;
+    background-color: #CED0B7;
+}
+
+.littlelogo{
+    color:#CED0B7;
+    font-size:3em;
+    background-color: white;
+    padding: 3vh;
+}
+
+.footercontent{
+    padding-bottom:5vh; 
+    color:white !important; 
+    font-size:2.3em; 
+    text-align: left;
+    width:50%;
+    margin-left:25%;
+}
+
+.secondpageimg{
+    width: 25vw;
+    height: auto;
+    margin-top: 5vh;
+    border: 1vh solid black;
+    border-radius: 1vh;
+}
+
+.terugknop{
+    font-size: 2.5em;
+    text-decoration: none;
+    color: white;
+    background-color:#CED0B7;
+    border-radius: 1vh;
+    outline: none;
+    border:0 none;
+    padding: 1vh;
+}
+
+.terugknop:hover{
+    background-color: #EDE7D9;
+}
+
+.extratext{
+}
+
+.imgextra{
+    width: 45vw;
+    height: auto;
+    margin-top: 10vh;
+}
+
+.submit{
+     margin-right: 35%;
+     float:right;
+     background-color:#CED0B7;
+     color:white !important;
+     border-radius: 1vh;
+     outline: none;
+     border:0 none;
+}
+
+.submit:hover{
+    background-color: #EDE7D9;
 }
